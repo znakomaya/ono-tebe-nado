@@ -203,6 +203,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 25px;
+    justify-content: space-between;
 }
 
 .card_type_film {
@@ -238,7 +239,6 @@
     color: #FFFFFF;
     bottom: 48px;
     z-index: 1;
-    position: absolute;
 }
 
 .lots__look-more-link {
@@ -272,8 +272,6 @@
 .about__logo-image {
     width: 148px;
     height: 114px;
-    top: 64px;
-    left: 46px;
     margin-left: 47px;
     margin-top: 65px;
 }
@@ -313,7 +311,7 @@
 
 .footer {
     width: 1100px;
-    padding: 181px 50px 188px;
+    padding: 181px 50px 88px;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
